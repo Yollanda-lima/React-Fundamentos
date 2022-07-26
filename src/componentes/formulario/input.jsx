@@ -2,10 +2,12 @@ import React from "react";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
+
+    let nome = 'Pedro'
+
     return (
         <>
-            <h3> {props.titulo}</h3>
-            <p> {props.subtitulo}</p>
+            <input type="text" value={nome}/>
         </>
     )
 

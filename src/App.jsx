@@ -9,12 +9,17 @@ import Card from './componentes/layout/Card'
 import Repeticao from "./componentes/Repeticao";
 import Condicional from "./componentes/Condicional";
 import CondicionalComIf from "./componentes/CondicionalComIf";
-import Pai from "./componentes/comunicacao/direta/Pai";
-import Super from "./componentes/comunicacao/direta/indireta/Super";
+import Pai from './componentes/comunicacao/direta/Pai';
+import Super from './componentes/comunicacao/direta/indireta/Super'
+import Input from './componentes/formulario/input'
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => (
     <div className="App">
+        <Card titulo="#09 - Input" color = "#00BFFF">
+          <Input></Input>
+        </Card>
         <Card titulo="#08 - Comunicação Indireta" color = "#8E44AD">
             <Super></Super>
         </Card>
