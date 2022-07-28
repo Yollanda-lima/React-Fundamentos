@@ -13,6 +13,8 @@ import Pai from './componentes/comunicacao/direta/Pai';
 import Super from './componentes/comunicacao/direta/indireta/Super';
 import Input from './componentes/formulario/input';
 import Contador from './contador/Contator';
+import Mega from "./componentes/mega/Mega";
+
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -21,6 +23,9 @@ export default (props) => (
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card titulo="#11 - Mega Sena" color="#00FF00">
+                <Mega atdNumero={7}></Mega>yo
+            </Card>
             <Card titulo="#10 - Contador" color="#DC143C">
                 <Contador passo={10} valor={100}></Contador>
             </Card>
